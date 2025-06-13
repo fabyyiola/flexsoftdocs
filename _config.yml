@@ -1,3 +1,15 @@
-title: My Site
-description: A site using GitHub Pages and Markdown
-theme: minima
+title: Flexsoft Docs
+theme: jekyll-theme-cayman
+
+# Agrega navegación lateral
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      toc: true
+
+# Opcional: activa table of contents automático
+plugins:
+  - jekyll-toc
